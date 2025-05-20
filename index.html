@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230621145909">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll="120" data-scroll-show="1000">
+			<div class="header__container">
+				<div class="header__content">
+					<a href="#" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+						<span>
+							«Більше, ніж сервіс»
+						</span>
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" data-goto=".demo-pages" class="menu__link active">
+										Демо-фрагмент
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto=".book-description" class="menu__link">
+										Опис книги
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto=".heros" class="menu__link">
+										Герої
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto=".quotes-book" class="menu__link">
+										Цитати
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto=".about" class="menu__link">
+										Автор
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions">
+						<a href="#" data-popup="#popup-phone" class="header-link link-order">
+							Замовити
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="sticky-cart-mob" id="sticky-element">
+				<div class="sticky-cart-mob__body">
+					<div class="sticky-cart-mob__options options">
+						<div class="options__item">
+							<input id="o_31" class="options__input" checked type="radio" value="1" name="option">
+							<label for="o_31" class="options__label">
+								<div class="options__text">
+									<span class="price">
+										820грн
+									</span>
+									<p class="text">
+										Мʼяка обкладинка
+									</p>
+									<span class="subtext">
+										Залишилось 300шт
+									</span>
+								</div>
+							</label>
+						</div>
+						<div class="options__item">
+							<input id="o_32" class="options__input" type="radio" value="2" name="option">
+							<label for="o_32" class="options__label">
+								<div class="options__text">
+									<span class="price">
+										1270грн
+									</span>
+									<p class="text">
+										Тверда обкладинка
+									</p>
+									<span class="subtext">
+										Залишилось 300шт
+									</span>
+								</div>
+							</label>
+						</div>
+					</div>
+					<a href="#" class="btn-cart" data-popup="#popup">
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+							<path d="M9.9375 20.25C9.9375 21.0439 9.29391 21.6875 8.5 21.6875C7.70609 21.6875 7.0625 21.0439 7.0625 20.25C7.0625 19.4561 7.70609 18.8125 8.5 18.8125C9.29391 18.8125 9.9375 19.4561 9.9375 20.25Z" fill="black" stroke="black" stroke-width="0.125" />
+							<path d="M18.25 21.75C19.0784 21.75 19.75 21.0784 19.75 20.25C19.75 19.4216 19.0784 18.75 18.25 18.75C17.4216 18.75 16.75 19.4216 16.75 20.25C16.75 21.0784 17.4216 21.75 18.25 21.75Z" fill="black" />
+							<path d="M4.96429 6.75H21.7857L19.3108 15.4121C19.2213 15.7255 19.0321 16.0012 18.7718 16.1975C18.5116 16.3938 18.1945 16.5 17.8685 16.5H8.88145C8.55549 16.5 8.23839 16.3938 7.97816 16.1975C7.71792 16.0012 7.52872 15.7255 7.43917 15.4121L4.04827 3.54396C4.0035 3.38725 3.90889 3.24939 3.77878 3.15124C3.64866 3.05309 3.49011 3 3.32713 3H1.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+				</div>
+			</div>
+			<!-- /.sticky-cart-mob -->
+			<section class="about-book">
+				<div class="about-book__container">
+					<div class="about-book__content">
+						<div class="about-book__left">
+							<div class="about-book__image">
+								<picture><source srcset="img/about-book/image.webp" type="image/webp"><img src="img/about-book/image.png" alt="image"></picture>
+								<div class="about-book__link">
+									<a href="#" data-goto=".demo-pages">Переглянути що всередині</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="about-book__right">
+							<div class="about-book__info book-info">
+								<h1 class="book-info__title">
+									«Більше, <br>
+									ніж сервіс»
+								</h1>
+								<p class="book-info__desc">
+									Ця книга переверне ваше уявлення про сервіс. Навчить мислити по-іншому, нестандартно, розвіє ваші упередження, що «сервіс — це дорого» або «сервіс — не на часі». 20 топових бізнесменів та керівників бізнесу поділяться з вами своїм досвідом, як побудувати клієнтоорієнтовний та конкурентний бізнес в Україні, коли вже всі вміють гарно посміхатися та питати “чи все вам сподобалось?”
+								</p>
+								<div class="book-info__payments">
+									<div class="book-info__options options">
+										<div class="options__item">
+											<input id="o_1" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_1" class="options__label">
+												<div class="options__text">
+													<span class="price">
+														820грн
+													</span>
+													<p class="text">
+														Мʼяка обкладинка
+													</p>
+													<span class="subtext">
+														Залишилось 300шт
+													</span>
+												</div>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="o_2" class="options__input" type="radio" value="2" name="option">
+											<label for="o_2" class="options__label">
+												<div class="options__text">
+													<span class="price">
+														1270грн
+													</span>
+													<p class="text">
+														Тверда обкладинка
+													</p>
+													<span class="subtext">
+														Залишилось 300шт
+													</span>
+												</div>
+											</label>
+										</div>
+									</div>
+									<div class="book-info__link">
+										<a href="#" data-popup="#popup">
+											Замовити
+										</a>
+									</div>
+									<div class="book-info__donate">
+										<p>
+											50грн з продажу книги донатимо
+											у фонд Повернись живим
+										</p>
+										<img src="img/about-book/Come_Back_Alive_Ukrainian_logo_09.2022 1.png" alt="1">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.about-book -->
+			<section class="book-description section-white section-padding" data-watch="navigator">
+				<div class="book-description__container">
+					<div class="book-description__content">
+						<h2 class="book-description__title title-h2">
+							<span>опис</span> книги
+						</h2>
+						<div data-showmore class="book-description-showmore">
+							<div data-showmore-content class="book-description-showmore__content">
+								<div class="book-description__text">
+									<p>
+										Кожен українець вже звик до того, що можна за 1 секунду перевести гроші через  monobank, відправити посилку Новою поштою, яка вже завтра буде в місті одержувача, відкрити свою компанію або сплатити податки за 15 хвилин через Дія, або скуштувати страву в ресторані, де дбають не тільки про якість та смак, а й про те, щоб світло падало так, як це буде краще для фото в Instagram. Але як часто ми замислюємося, що саме стоїть за таким сервісом: які системні рішення, які помилки, які ключові ресурси?
+									</p>
+
+									<p>
+										Ця книга переверне ваше уявлення про сервіс. Навчить мислити по-іншому, нестандартно, розвіє ваші упередження, що «сервіс — це дорого» або «сервіс — не на часі». 20 топових бізнесменів та керівників бізнесу поділяться з вами своїм досвідом, як побудувати клієнтоорієнтовний та конкурентний бізнес в Україні, коли вже всі вміють гарно посміхатися та питати “чи все вам сподобалось?”
+									</p>
+
+									<p>
+										В книзі зібрані 30+ кейсів та практичних інструментів таких бізнесменів та діячів, як Михайло Федоров (Дія), Володимир Поперешнюк (Нова Пошта), Дмитро Деркач (Планета кіно), Дмитро Кримський (GoodWine), Дмитро Дубровський (Uklon) та багато інших. 
+									</p>
+
+									<p>
+										Ця книга стане натхненням та мотивацією робити БІЛЬШЕ, більше ніж просто сервіс. І це більше — створення унікального клієнтського досвіду та щира турбота про клієнта.
+									</p>
+								</div>
+								<div class="book-description__info">
+									Формат: 210 мм x 250 мм <br>
+									Кількість сторінок: 240 <br>
+									Обкладинка: м'яка та тверда <br>
+									Рік виходу: 2023 рік <br>
+									Наклад: 1500 примірників <br>
+									Видавництво: punkt publishing
+								</div>
+							</div>
+							<button hidden data-showmore-button type="button" class="book-description-showmore__more"><span>Розгорнути опис</span><span>Згорнути опис</span></button>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- /.book-description -->
+			<section class="demo-pages section-padding" data-watch="navigator">
+				<div class="demo-pages__container">
+					<div class="demo-pages__content">
+						<h2 class="demo-pages__title title-h2">
+							що <span>всередині</span>
+						</h2>
+						<div class="demo-pages__body">
+							<div class="demo-pages__slider swiper">
+								<div class="demo-pages__wrapper swiper-wrapper">
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/01.webp" type="image/webp"><img src="img/demo-pages/01.png" alt="Image Slider 01"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/02.webp" type="image/webp"><img src="img/demo-pages/02.png" alt="Image Slider 02"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/03.webp" type="image/webp"><img src="img/demo-pages/03.png" alt="Image Slider 03"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/04.webp" type="image/webp"><img src="img/demo-pages/04.png" alt="Image Slider 04"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/05.webp" type="image/webp"><img src="img/demo-pages/05.png" alt="Image Slider 05"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/06.webp" type="image/webp"><img src="img/demo-pages/06.png" alt="Image Slider 06"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/07.webp" type="image/webp"><img src="img/demo-pages/07.png" alt="Image Slider 07"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/08.webp" type="image/webp"><img src="img/demo-pages/08.png" alt="Image Slider 08"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/09.webp" type="image/webp"><img src="img/demo-pages/09.png" alt="Image Slider 09"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/010.webp" type="image/webp"><img src="img/demo-pages/010.png" alt="Image Slider 010"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/011.webp" type="image/webp"><img src="img/demo-pages/011.png" alt="Image Slider 011"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/012.webp" type="image/webp"><img src="img/demo-pages/012.png" alt="Image Slider 012"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/013.webp" type="image/webp"><img src="img/demo-pages/013.png" alt="Image Slider 013"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/014.webp" type="image/webp"><img src="img/demo-pages/014.png" alt="Image Slider 014"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/015.webp" type="image/webp"><img src="img/demo-pages/015.png" alt="Image Slider 015"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/016.webp" type="image/webp"><img src="img/demo-pages/016.png" alt="Image Slider 016"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/017.webp" type="image/webp"><img src="img/demo-pages/017.png" alt="Image Slider 017"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/018.webp" type="image/webp"><img src="img/demo-pages/018.png" alt="Image Slider 018"></picture></div>
+										</div>
+									</div>
+								</div>
+								<button type="button" class="swiper-button-prev">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+										<path d="M10.0002 13.8098L5.00024 8.80981L10.0002 3.80981" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</button>
+								<button type="button" class="swiper-button-next">
+									<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+										<path d="M6.86206 3.80981L11.8621 8.80981L6.86206 13.8098" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</button>
+							</div>
+							<div class="demo-pages__slider-thumbs swiper">
+								<div class="demo-pages__wrapper swiper-wrapper">
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/01.webp" type="image/webp"><img src="img/demo-pages/01.png" alt="Image Slider 01"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/02.webp" type="image/webp"><img src="img/demo-pages/02.png" alt="Image Slider 02"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/03.webp" type="image/webp"><img src="img/demo-pages/03.png" alt="Image Slider 03"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/04.webp" type="image/webp"><img src="img/demo-pages/04.png" alt="Image Slider 04"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/05.webp" type="image/webp"><img src="img/demo-pages/05.png" alt="Image Slider 05"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/06.webp" type="image/webp"><img src="img/demo-pages/06.png" alt="Image Slider 06"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/07.webp" type="image/webp"><img src="img/demo-pages/07.png" alt="Image Slider 07"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/08.webp" type="image/webp"><img src="img/demo-pages/08.png" alt="Image Slider 08"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/09.webp" type="image/webp"><img src="img/demo-pages/09.png" alt="Image Slider 09"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/010.webp" type="image/webp"><img src="img/demo-pages/010.png" alt="Image Slider 010"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/011.webp" type="image/webp"><img src="img/demo-pages/011.png" alt="Image Slider 011"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/012.webp" type="image/webp"><img src="img/demo-pages/012.png" alt="Image Slider 012"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/013.webp" type="image/webp"><img src="img/demo-pages/013.png" alt="Image Slider 013"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/014.webp" type="image/webp"><img src="img/demo-pages/014.png" alt="Image Slider 014"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/015.webp" type="image/webp"><img src="img/demo-pages/015.png" alt="Image Slider 015"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/016.webp" type="image/webp"><img src="img/demo-pages/016.png" alt="Image Slider 016"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/017.webp" type="image/webp"><img src="img/demo-pages/017.png" alt="Image Slider 017"></picture></div>
+										</div>
+									</div>
+									<div class="demo-pages__slide swiper-slide slide">
+										<div class="slide__body">
+											<div class="slide__image"><picture><source srcset="img/demo-pages/018.webp" type="image/webp"><img src="img/demo-pages/018.png" alt="Image Slider 018"></picture></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.demo-pages -->
+			<section class="heros section-padding" data-watch="navigator">
+				<div class="heros__container no-container-right">
+					<div class="heros__content">
+						<h2 class="heros__title title-h2">
+							<span>
+								герої
+							</span> книги
+						</h2>
+						<div class="heros__body">
+							<div class="heros__slider swiper">
+								<div class="heros__wrapper swiper-wrapper">
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/01.webp" type="image/webp"><img src="img/heros/01.png" alt="Image 01"></picture></div>
+											<h5>Михайло Федоров</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Віцепрем’єр-міністр із інновацій, розвитку освіти, науки та технологій, Міністр цифрової трансформації. Учасник списку «Forbes 30 до 30» як молодий візіонер. До приходу в політику займався бізнесом у сфері маркетингу в соціальних мережах.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/02.webp" type="image/webp"><img src="img/heros/02.png" alt="Image 02"></picture></div>
+											<h5>Євген Клопотенко</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Шеф-кухар, ресторатор, громадський активіст, реформатор шкільного харчування та професійної освіти кухарів, дослідник української кухні. З молодих років захопився кулінарією та поступово присвятив цій справі своє життя. За його ініціативи та через півтора роки наполегливих зусиль 1 липня 2022 року український борщ увійшов до списку нематеріальної культурної спадщини ЮНЕСКО.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/03.webp" type="image/webp"><img src="img/heros/03.png" alt="Image 03"></picture></div>
+											<h5>Слава Балбек</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Архітектор, волонтер, засновник balbek bureau, співвласник київських закладів «Дилетант», «Дублер» та «Варцаб». Власну студію заснував
+														одразу після закінчення архітектурного, а 2018 року з неї виокремилося balbek bureau. Популярний архітектор сфери HoReCa, з 2020 року Слава й сам є ресторатором. Із початком повномасштабної війни став волонтером, створивши на базі своїх закладів організацію «Київ Волонтерський», а разом із архітектурним бюро розвиває проєкти житла для переселенців RE:Ukraine Housing.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/04.webp" type="image/webp"><img src="img/heros/04.png" alt="Image 04"></picture></div>
+											<h5>Дмитро Деркач</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Співзасновник мережі кінотеатрів «Планета кіно». За освітою — юрист-міжнародник, має досвід роботи в компаніях «великої четвірки». Разом із бізнес-партнером Андрієм Шпигом та майбутньою гендиректоркою мережі Наталею Байдан починали з одного кінозалу IMAX у Києві за ексклюзивним договором із канадською компанією-власницею технології.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/05.webp" type="image/webp"><img src="img/heros/05.png" alt="Image 05"></picture></div>
+											<h5>Володимир Поперешнюк</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Співвласник Нової пошти. До 2014 року — операційний директор, а станом на зараз — член Наглядової ради компанії, голова комітету Наглядової ради з корпоративного управління.
+														Має ступінь Executive МВА Міжнародного інституту бізнесу.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/06.webp" type="image/webp"><img src="img/heros/06.png" alt="Image 06"></picture></div>
+											<h5>Гіоргі Іукурідзе</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														CEO та співзасновник виноробні «Shabo». Представник другого покоління в сімейному виноробному бізнесі. З дитинства вихований із повагою та любов’ю до лози. Отримав освіту у сфері міжнародних відносин та дипломатії. Працював політичним радником у Європейському парламенті
+														та в Раді Європи, проте через якийсь час повністю присвятив себе розвитку родинної справи та виноробства в Україні.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/07.webp" type="image/webp"><img src="img/heros/07.png" alt="Image 07"></picture></div>
+											<h5>Максим Лагунов</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Співвласник закладів «LouLou», «The Fitz» та «Suke bistro», керівний партнер ресторану «Fratelli». Має широкий досвід підприємництва від виробництва й роздрібної торгівлі до салонів краси, але останні роки зосередився на індустрії гостинності. Називає себе не ресторатором, а бізнесменом, та вірить, що для успішного розвитку важливо не тільки аналізувати і рахувати показники, а й довіритися власній інтуїції.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/08.webp" type="image/webp"><img src="img/heros/08.png" alt="Image 08"></picture></div>
+											<h5>Андрій Маренчук</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Керівний партнер Ribas Hotels Group. Працює в компанії вже 8 років. За цей час набув безцінного досвіду в операційному управлінні готелями та ресторанами різного спрямування.
+														В розвиткові компанії керується, зокрема, високими стандартами сервісу, бо вірить, що успішний бізнес може існувати та зростати тільки у прямому діалозі з клієнтом.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/09.webp" type="image/webp"><img src="img/heros/09.png" alt="Image 09"></picture></div>
+											<h5>Алекс Купер</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Маркетолог та ресторатор, засновник таких закладів як «Молодість», «Odesa Food Market» та «Kyiv Food Market». Вже під час повномасштабної війни відкрив у Львові сучасне ізраїльське кафе «Shalom», ресторан кримськотатарської кухні «Салям» у Києві та планує вихід на польський ринок.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/010.webp" type="image/webp"><img src="img/heros/010.png" alt="Image 010"></picture></div>
+											<h5>Дмитро Борисов</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Ресторатор, шеф-кухар, засновник компанії GastroFamily. До 2009 року працював у сфері реклами, мав власне брендингове агентство. Свій перший заклад відкрив у форматі «тихої справи на пенсії» після успішної кар’єри в рекламі. Як розповідає сам ресторатор, тоді він нічого не знав про те, як працює ресторанний бізнес, і просто хотів готувати смачну їжу для людей.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/011.webp" type="image/webp"><img src="img/heros/011.png" alt="Image 011"></picture></div>
+											<h5>Олексій Волошин</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														CEO та генеральний менеджер Edem Resort Medical & SPA. Займається готельним бізнесом більше 17 років. За цей час працював у закладах преміум-сегменту в Донецьку, Криму, Києві та Одесі. В 2022 році став одним із засновників керівної компанії «Edem Family». Амбасадор української гостинності та прихильник економічного розвитку України через індустрії туризму й гостинності. Віцепрезидент Української Асоціації Готелів і Курортів UHRA.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/012.webp" type="image/webp"><img src="img/heros/012.png" alt="Image 012"></picture></div>
+											<h5>Савелій Лібкін</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Засновник компанії «Ресторани Савви Лібкіна», власник ресторанів «Дача», «Тавернетта», «Компот», візіонер Національної ресторанної премії «Сіль». Успіх його закладів міцно пов’язаний із особистим брендом самого ресторатора — завзятого кухаря, закоханого в Одесу та локальну кухню, гостинного господаря, автора книг та унікальних рецептів. Пан Лібкін відіграв одну з провідних ролей у становленні українського ресторанного бізнесу й сервісу.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/013.webp" type="image/webp"><img src="img/heros/013.png" alt="Image 013"></picture></div>
+											<h5>Тарас Тустанівський</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Співвласник готелю «Стара Правда», Голова Асоціації готельєрів та власників садиб Яремчанщини. Перший концептуальний готель відкрив без інвестора, досвіду в індустрії гостинності
+														та профільної освіти, а завдяки інтуїції та бажанню показати гостям чарівний куточок українських Карпат. Продовжує працювати під час війни та будувати плани розвитку після перемоги.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/014.webp" type="image/webp"><img src="img/heros/014.png" alt="Image 014"></picture></div>
+											<h5>Володимир Непийвода</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Архітектор, дизайнер громадських інтер’єрів, засновник YOD Group. Разом із партнерами відкрив Win Bar у Києві та барний комплекс Mad Bar’s House у Львові, застосувавши глибоке розуміння
+														суті індустрії гостинності й великий досвід у проєктуванні ресторанів і кафе.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/015.webp" type="image/webp"><img src="img/heros/015.png" alt="Image 015"></picture></div>
+											<h5>Анастасія Владичанська</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Засновниця компанії Vladychynska Consulting, авторка та викладачка першої в Україні Школи сервісу kmbs. Єдиний сертифікований консультант
+														із побудови системи сервісу у Східній Європі за методологією DiJulius Group — світового лідера в питаннях побудови сервісу. Закінчила Академію для управлінців із клієнтського досвіду в США, вчилася в Інституті Діснея
+														та в Ritz-Carlton.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/016.webp" type="image/webp"><img src="img/heros/016.png" alt="Image 016"></picture></div>
+											<h5>Олексій Дмітрієв</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Ресторатор, співвласник Bernardazzi, бренд-шеф Крем-кафе в Одесі та Києві, кращий сомельє України 2008 року.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/017.webp" type="image/webp"><img src="img/heros/017.png" alt="Image 017"></picture></div>
+											<h5>Дмитро Кримський</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Співзасновник мережі «Good Wine» та парасолькової компанії «Wine Bureau». До створення власного бізнесу у сфері винного імпорту був директором ДЦ Україна та працював у міжнародних компаніях.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/018.webp" type="image/webp"><img src="img/heros/018.png" alt="Image 018"></picture></div>
+											<h5>Вардкес Арзуманян</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Ресторатор, засновник компанії «Рестарон», член журі ресторанної премії «Сіль» та співзасновник Гільдії рестораторів Львова. За 27 років
+														у ресторанному бізнесі пережив не одну кризу та не зупинив роботу закладів навіть під час повномасштабної війни, ба більше — продовжує відкривати оновлені ресторани.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/019.webp" type="image/webp"><img src="img/heros/019.png" alt="Image 019"></picture></div>
+											<h5>Дмитрий Дубровский</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Співзасновник та CEO компанії «Uklon». Закінчив Київський політехнічний інститут. 2006 року заснував IT-компанію «Evos», яка займалася розробкою програмного забезпечення для служб таксі. З невеликого сайд-проєкту цього бізнесу і народився Uklon.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero">
+										<div class="slide-hero__body">
+											<div class="slide-hero__image"><picture><source srcset="img/heros/020.webp" type="image/webp"><img src="img/heros/020.png" alt="Image 020"></picture></div>
+											<h5>Татьяна Бурда</h5>
+											<div data-showmore class="hero-info">
+												<div data-showmore-content="70" class="hero-info__content">
+													<p>
+														Підприємиця, співзасновниця Invogue Fashion Group. До 27 років працювала викладачкою скрипки, впевнена, що саме музика загартувала її характер, навчила терплячості та працьови- тості. Згодом кардинально змінила діяльність, пройшовши шлях у фешн-індустрії від продавчині-консультантки до засновниці власної компанії.
+													</p>
+												</div>
+												<button hidden data-showmore-button type="button" class="hero-info__more"><span>Розгорнути</span><span>Згорнути</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="heros__slide swiper-slide slide-hero slide-hero-empty">
+										<div class="slide-hero__body">
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.heros -->
+			<section class="quotes-book section-padding section-white" data-watch="navigator">
+				<div class="quotes-book__container">
+					<div class="quotes-book__content">
+						<h2 class="quotes-book__title title-h2">
+							<span>цитати</span> з книги
+						</h2>
+						<div class="quotes-book__list">
+							<div class="quotes-book__column">
+								<blockquote class="quotes-book__quote">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</blockquote>
+								<blockquote class="quotes-book__quote">
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</blockquote>
+								<blockquote class="quotes-book__quote">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</blockquote>
+							</div>
+							<div class="quotes-book__column">
+								<blockquote class="quotes-book__quote">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+								</blockquote>
+								<blockquote class="quotes-book__quote">
+									Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</blockquote>
+								<blockquote class="quotes-book__quote">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</blockquote>
+							</div>
+						</div>
+						<!-- Оболонка слайдера -->
+						<div class="quotes-book__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="quotes-book__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="quotes-book__slide swiper-slide">
+									<blockquote class="quotes-book__quote">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</blockquote>
+								</div>
+								<!-- Слайд -->
+								<div class="quotes-book__slide swiper-slide">
+									<blockquote class="quotes-book__quote">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</blockquote>
+								</div>
+								<!-- Слайд -->
+								<div class="quotes-book__slide swiper-slide">
+									<blockquote class="quotes-book__quote">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</blockquote>
+								</div>
+								<!-- Слайд -->
+								<div class="quotes-book__slide swiper-slide">
+									<blockquote class="quotes-book__quote">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</blockquote>
+								</div>
+								<!-- Слайд -->
+								<div class="quotes-book__slide swiper-slide">
+									<blockquote class="quotes-book__quote">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</blockquote>
+								</div>
+								<!-- Слайд -->
+								<div class="quotes-book__slide swiper-slide">
+									<blockquote class="quotes-book__quote">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</blockquote>
+								</div>
+							</div>
+							<!-- Якщо потрібна пагінація -->
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.quotes-book -->
+			<section class="about section-padding" data-watch="navigator">
+				<div class="about__container">
+					<div class="about__content">
+						<div class="about__body">
+							<div class="about__image">
+								<picture><source srcset="img/image-about.webp" type="image/webp"><img src="img/image-about.png" alt="1"></picture>
+							</div>
+							<div class="about__info">
+								<h2 class="about__title title-h2">
+									про <br>
+									<span>автора</span>
+								</h2>
+								<div data-showmore data-showmore-media="479.98,max" class="about-more">
+									<div data-showmore-content="110" class="about-more__content">
+										<p>
+											<strong>
+												Артур Лупашко
+											</strong>
+											— автор книги, готельний девелопер. Будує світову мережу готелів Ribas Hotels, яка на сьогоднішній день складається з 28 готельних об'єктів та має 5 власних брендів. Засновник управляючої компанії Ribas Hotels Group, керує командою із 570 осіб та є засновником організації Ukrainian Hotel & Resort Association. Веде YouTube-блог про готельний бізнес «Артур Лупашко | Ribas» та читає курс про бізнес на платформі BigMoney University. 
+										</p>
+									</div>
+									<button hidden data-showmore-button type="button" class="about-more__more"><span>Показати повністю</span><span>Сховати</span></button>
+								</div>
+
+								<div class="about__socials">
+									<ul>
+										<li>
+											<a href="#">
+												<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+													<path d="M11 17.6684L22.2396 27.5593C22.3697 27.6737 22.5272 27.7524 22.6968 27.7876C22.8664 27.8229 23.0423 27.8135 23.2071 27.7603C23.372 27.7071 23.5202 27.6121 23.6373 27.4844C23.7544 27.3567 23.8363 27.2008 23.875 27.0319L28.5767 6.51537C28.6173 6.33798 28.6088 6.15286 28.552 5.97996C28.4952 5.80707 28.3924 5.65294 28.2544 5.5342C28.1165 5.41545 27.9488 5.33659 27.7694 5.30612C27.59 5.27564 27.4057 5.2947 27.2363 5.36124L4.1667 14.4243C3.96564 14.5033 3.79556 14.6453 3.68192 14.829C3.56828 15.0127 3.51717 15.2282 3.53626 15.4434C3.55535 15.6586 3.64359 15.8618 3.7878 16.0226C3.932 16.1835 4.12441 16.2933 4.33623 16.3356L11 17.6684Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													<path d="M11 17.6688L28.014 5.38086" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													<path d="M16.6134 22.6082L12.7071 26.5145C12.5673 26.6544 12.3891 26.7496 12.1951 26.7882C12.0011 26.8268 11.8 26.807 11.6173 26.7313C11.4346 26.6556 11.2784 26.5274 11.1685 26.363C11.0587 26.1985 11 26.0052 11 25.8074V17.6685" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+													<path d="M16 21.8096C18.7614 21.8096 21 19.571 21 16.8096C21 14.0481 18.7614 11.8096 16 11.8096C13.2386 11.8096 11 14.0481 11 16.8096C11 19.571 13.2386 21.8096 16 21.8096Z" stroke="black" stroke-width="2" stroke-miterlimit="10" />
+													<path d="M21.5 5.30957H10.5C7.18629 5.30957 4.5 7.99586 4.5 11.3096V22.3096C4.5 25.6233 7.18629 28.3096 10.5 28.3096H21.5C24.8137 28.3096 27.5 25.6233 27.5 22.3096V11.3096C27.5 7.99586 24.8137 5.30957 21.5 5.30957Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													<path d="M22.5 11.8096C23.3284 11.8096 24 11.138 24 10.3096C24 9.48114 23.3284 8.80957 22.5 8.80957C21.6716 8.80957 21 9.48114 21 10.3096C21 11.138 21.6716 11.8096 22.5 11.8096Z" fill="black" />
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+													<path d="M20 16.8096L14 12.8096V20.8096L20 16.8096Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													<path d="M3 16.8095C3 20.529 3.38427 22.7113 3.67638 23.8329C3.75447 24.1392 3.90442 24.4225 4.11382 24.6593C4.32322 24.8961 4.58603 25.0797 4.88049 25.1947C9.0651 26.8028 16 26.7586 16 26.7586C16 26.7586 22.9348 26.8028 27.1195 25.1947C27.4139 25.0797 27.6767 24.8962 27.8861 24.6593C28.0955 24.4225 28.2455 24.1392 28.3236 23.8329C28.6157 22.7113 29 20.529 29 16.8095C29 13.0901 28.6157 10.9078 28.3236 9.7862C28.2455 9.47988 28.0956 9.19657 27.8862 8.95975C27.6768 8.72293 27.414 8.53942 27.1195 8.42441C22.9349 6.81631 16 6.86047 16 6.86047C16 6.86047 9.06518 6.81632 4.88053 8.42439C4.58607 8.5394 4.32325 8.72291 4.11385 8.95973C3.90446 9.19655 3.7545 9.47986 3.67641 9.78618C3.38428 10.9078 3 13.0901 3 16.8095Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</a>
+										</li>
+									</ul>
+									<span>– сторінки Артура</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.about -->
+			<section class="about-book about-book--footer">
+				<div class="about-book__container">
+					<div class="about-book__content">
+						<div class="about-book__left">
+							<div class="about-book__image">
+								<picture><source srcset="img/about-book/image.webp" type="image/webp"><img src="img/about-book/image.png" alt="image"></picture>
+								<div class="about-book__link">
+									<a href="#">Переглянути що всередині</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="about-book__right">
+							<div class="about-book__info book-info">
+								<h1 class="book-info__title">
+									«Більше, <br>
+									ніж сервіс»
+								</h1>
+								<p class="book-info__desc">
+									Ця книга переверне ваше уявлення про сервіс. Навчить мислити по-іншому, нестандартно, розвіє ваші упередження, що «сервіс — це дорого» або «сервіс — не на часі». 20 топових бізнесменів та керівників бізнесу поділяться з вами своїм досвідом, як побудувати клієнтоорієнтовний та конкурентний бізнес в Україні, коли вже всі вміють гарно посміхатися та питати “чи все вам сподобалось?”
+								</p>
+								<div class="book-info__payments">
+									<div class="book-info__options options">
+										<div class="options__item">
+											<input id="o_1" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_1" class="options__label">
+												<div class="options__text">
+													<span class="price">
+														820грн
+													</span>
+													<p class="text">
+														Мʼяка обкладинка
+													</p>
+													<span class="subtext">
+														Залишилось 300шт
+													</span>
+												</div>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="o_2" class="options__input" type="radio" value="2" name="option">
+											<label for="o_2" class="options__label">
+												<div class="options__text">
+													<span class="price">
+														1270грн
+													</span>
+													<p class="text">
+														Тверда обкладинка
+													</p>
+													<span class="subtext">
+														Залишилось 300шт
+													</span>
+												</div>
+											</label>
+										</div>
+									</div>
+									<div class="book-info__link">
+										<a href="#">
+											Замовити
+										</a>
+									</div>
+									<div class="book-info__donate">
+										<p>
+											50грн з продажу книги донатимо
+											у фонд Повернись живим
+										</p>
+										<img src="img/about-book/Come_Back_Alive_Ukrainian_logo_09.2022 1.png" alt="1">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.about-book -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__info">
+						Формат: 210 мм x 250 мм <br>
+						Кількість сторінок: 240 <br>
+						Обкладинка: м'яка та тверда <br>
+						Рік виходу: 2023 рік <br>
+						Наклад: 1500 примірників <br>
+						Видавництво: punkt publishing
+					</div>
+					<div class="footer__editor">
+						<span>Видавець та офіційний дистриб‘ютор</span> <a href="#" class="footer__logo"><img src="img/punkt_logo_vector_not_whirte_1 1.png" alt="Logo"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<button data-close type="button" class="popup__close">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+				<path d="M18.75 5.25L5.25 18.75" stroke="white" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+				<path d="M18.75 18.75L5.25 5.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+			</svg>
+		</button>
+		<div class="popup__wrapper">
+			<div class="popup__content">
+
+				<div class="popup__body">
+					<form action="#" class="popup__form form" method="POST">
+						<div class="popup__header">
+							<div class="popup__header-top">
+								<div class="popup__header-left">
+									<div class="preview">
+										<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="12"></picture>
+									</div>
+									<div class="info">
+										<p>
+											«Більше, ніж сервіс»
+										</p>
+										<span>
+											за 500грн
+										</span>
+									</div>
+								</div>
+								<div class="popup__header-right">
+									<div data-quantity class="quantity">
+										<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+												<path d="M2.5 8H13.5" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</button>
+
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+												<path d="M2.5 8H13.5" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M8 2.5V13.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="popup__header-bottom">
+								<div class="total">
+									Всього: 1 000грн
+								</div>
+							</div>
+						</div>
+						<div class="popup__info">
+							<div class="form__line">
+								<label for="#">Імʼя</label>
+								<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="" class="input form__input">
+							</div>
+							<div class="form__line">
+								<label for="#">Прізвище</label>
+								<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="" class="input form__input">
+							</div>
+							<div class="form__line">
+								<label for="#">Номер телефону</label>
+								<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="" class="input form__input">
+							</div>
+							<div class="form__line">
+								<label for="#">E-mail</label>
+								<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="" class="input form__input">
+							</div>
+							<div class="form__line">
+								<label for="#">Доставка</label>
+								<select name="form[]" data-class-modif="form-select">
+									<option value="1" selected>Нова пошта (Україна)</option>
+									<option value="2">Нова пошта (Україна) 2</option>
+									<option value="3">Нова пошта (Україна) 3</option>
+									<option value="4">Нова пошта (Україна) 4</option>
+								</select>
+							</div>
+							<label for="#">Оплата</label>
+							<div class="form__line line-bg">
+								<div class="form__line-options options">
+									<div class="options__item">
+										<input id="o_14" class="options__input" checked type="radio" value="1" name="option">
+										<label for="o_14" class="options__label">
+											<div class="options__text"><span>Оплата онлайн з monopay</span></div>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="o_24" class="options__input" type="radio" value="2" name="option">
+										<label for="o_24" class="options__label">
+											<div class="options__text">
+												<span>Післяплата</span>
+												<p>
+													Зверніть увагу, що цей тип оплати можливий лише для замовлень з відправкою «Новою Поштою» по території України. За тарифами перевізника, до вартості вашого замовлення додаються 20 гривень за послугу накладеного платежу та 2% від вартості товару. Відправлення за кордон ми формуємо лише за повної передоплати і додатково зв'язуємося з вами, щоб погодити спосіб доставки та вартість. Ми робимо це роками, і наша менеджерка Аня зможе проконсультувати вас з приводу усіх нюансів.
+												</p>
+											</div>
+										</label>
+									</div>
+								</div>
+							</div>
+							<label for="#">Звʼязок з нами</label>
+							<div class="form__line line-bg">
+								<div class="form__line-options options">
+									<div class="options__item">
+										<input id="o_141" class="options__input" checked type="radio" value="1" name="option2">
+										<label for="o_141" class="options__label">
+											<div class="options__text"><span>Не пишіть мені – одразу відправляйте замовлення</span></div>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="o_241" class="options__input" type="radio" value="2" name="option2">
+										<label for="o_241" class="options__label">
+											<div class="options__text">
+												<span>Передзвоніть будь ласка, хочу дещо уточнити</span>
+
+											</div>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="o_341" class="options__input" type="radio" value="2" name="option2">
+										<label for="o_341" class="options__label">
+											<div class="options__text">
+												<span>Напишіть в телеграм, хочу дещо уточнити</span>
+
+											</div>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form__line">
+								<label for="#">Ваш коментар</label>
+								<textarea autocomplete="off" name="form[]" placeholder="..." data-error="Помилка" class="form__input form__textarea input"></textarea>
+							</div>
+							<div class="form__line">
+
+								<button type="submit" class="button">Замовити</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-phone" aria-hidden="true" class="popup popup-s">
+		<button data-close type="button" class="popup__close">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+				<path d="M18.75 5.25L5.25 18.75" stroke="white" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+				<path d="M18.75 18.75L5.25 5.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+			</svg>
+		</button>
+		<div class="popup__wrapper">
+			<div class="popup__content">
+
+				<div class="popup__body">
+					<form action="#" class="popup__form form" method="POST">
+
+						<div class="popup__info">
+							<div class="form__line">
+								<label for="#">Імʼя</label>
+								<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="" class="input form__input">
+							</div>
+							<div class="form__line">
+								<label for="#">Номер телефону</label>
+								<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="" class="input form__input">
+							</div>
+
+							<div class="form__line">
+
+								<button type="submit" class="button">Замовити</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230621145909"></script>
+</body>
+
+</html>
